@@ -318,8 +318,10 @@ article {
     padding-bottom: 3px; }
   .contenedor-principal-ayuda .buscar-boton:hover {
     background-color: #d9d9d9; }
-  .contenedor-principal-ayuda .d-grid {
-    justify-content: center; }
-  .contenedor-principal-ayuda .btn {
-    width: 300px;
-    box-shadow: 2px 2px 0 2px rgba(83, 81, 81, 0.505); }
+
+.d-grid {
+  justify-content: center; }
+
+.btn {
+  width: 300px;
+  box-shadow: 2px 2px 0 2px rgba(83, 81, 81, 0.505); }
