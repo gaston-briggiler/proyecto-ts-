@@ -28,7 +28,7 @@ header .nav-wrapper {
   .flex-container {
     display: flex;
     flex-flow: row wrap;
-    background-color: rgba(51, 47, 57, 0.308);
+    background-color: $backgroundcolor-principal;
     padding: 15px;
     justify-content: space-between;
     align-items: center;
