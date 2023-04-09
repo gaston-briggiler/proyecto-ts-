@@ -1,4 +1,5 @@
 @import "../scss/utilities/variable";
+@import "../scss/utilities/mixins";
 @import "../scss/base/reset";
 @import "../scss/layout/header";
 @import "../scss/layout/body-general";
@@ -6,14 +7,17 @@
 @import "../scss/layout/main-iniciar";
 @import "../scss/layout/main-registrarse";
 @import "../scss/layout/footer";
+@import "../scss/layout/main-ayuda";
+@import "../scss/components/boton-bootstrap";
+
+/*MEDIA QUERY*/
+
 @import "../scss/layout/media-768";
 @import "../scss/layout/media-655";
 @import "../scss/layout/media-480";
 @import "../scss/layout/media-426";
 @import "../scss/layout/media-320"; 
 @import "../scss/layout/media-768-registrarse";
-@import "../scss/layout/main-ayuda";
-@import "../scss/components/boton-bootstrap";
 
 
 

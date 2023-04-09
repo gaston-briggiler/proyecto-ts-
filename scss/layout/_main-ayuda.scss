@@ -1,9 +1,5 @@
 .contenedor-principal-ayuda {
-  
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+@include flex (100%,100%,column,space-between, normal );
 
     .main-ayuda {
         height: 76vh;
