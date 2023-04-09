@@ -1,0 +1,54 @@
+header .nav-wrapper {
+    flex-grow: 0;
+    
+  }
+  
+  .loguito {
+    width: 250px;
+  }
+  
+  .menu {
+    padding-top: 12px;
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        li a {
+            text-decoration: none;
+            color: black;
+          }
+      }
+  }
+
+  nav #toggle,
+  nav label {
+    display: none;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(51, 47, 57, 0.308);
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    .boton {
+        font-family: sans-serif;
+        font-style: normal;
+        color: white;
+        width: 150px;
+        height: 35px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgba(231, 231, 231, 0.5);
+        transition: background-color 0.7s;
+        padding: 8px;
+        
+        transition: background-color 0.7s;
+      }
+  }
+
+  .boton:hover {
+    background-color: rgba(21, 98, 92, 1);
+  }

@@ -1,16 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html,
-  body {
+body {
     height: 100%;
-    background-color: red;
   }
   .principal {
     background-image: url(../assets/imagenes/Imagenes-todavia-sirve/Horizontales/op12.jpg);
     background-repeat: no-repeat;
     background-position: 50% 0%;
     background-size: cover;
+  }
+  .contenedor-general {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }

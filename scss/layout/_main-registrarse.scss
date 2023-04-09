@@ -1,0 +1,56 @@
+.container-todo{
+    height: 76vh;
+}
+.flex-container-form {  
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    .item1 {
+  
+        justify-content: center;
+      }
+      .datos-de-la-cuenta p , .datos-del-usuario p {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 2px solid rgb(221, 220, 220);
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .box {
+    
+        width: 90%;
+        height: 25px;
+        border-radius: 5px;
+        background-color: rgba(217, 217, 217, 1);
+        border-style: groove;
+      }
+      
+      div .enviar-div {
+      display: flex;
+      justify-content: center;
+      }
+      
+      .enviar-registro {
+      
+        border-radius: 10px;
+        color: whitesmoke;
+        align-self: center;
+        background-color: rgba(21, 98, 92, 0.575);
+        padding: 4px;
+        transition: background-color 0.7s;
+        margin: 15px;
+      }
+      
+      .enviar-registro:hover {
+        background-color: black;
+      }
+}
+
+
+
+  

@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header .nav-wrapper {
+  flex-grow: 0; }
+
+.loguito {
+  width: 250px; }
+
+.menu {
+  padding-top: 12px; }
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem; }
+    .menu ul li a {
+      text-decoration: none;
+      color: black; }
+
+nav #toggle,
+nav label {
+  display: none; }
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgba(51, 47, 57, 0.308);
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center; }
+  .flex-container .boton {
+    font-family: sans-serif;
+    font-style: normal;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(231, 231, 231, 0.5);
+    transition: background-color 0.7s;
+    padding: 8px;
+    transition: background-color 0.7s; }
+
+.boton:hover {
+  background-color: #15625c; }
+
+body {
+  height: 100%; }
+
+.principal {
+  background-image: url(../assets/imagenes/Imagenes-todavia-sirve/Horizontales/op12.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover; }
+
+.contenedor-general {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.main-index {
+  height: 76vh;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+article {
+  margin-bottom: 30px; }
+  article h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #f3f0f0;
+    background-color: rgba(47, 57, 56, 0.308);
+    border: solid 3px #055f3b;
+    box-shadow: 3px 3px 0px 3px rgba(126, 103, 75, 0.552);
+    padding: 3%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 35px; }
+
+.app {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+  display: block;
+  color: rgba(255, 255, 255, 0.91);
+  border-radius: 8px;
+  background-color: rgba(47, 57, 56, 0.308);
+  border: solid 3px #055f3b;
+  transition: background-color 0.7s;
+  padding: 5px;
+  box-shadow: 2px 2px 0px 2px rgba(126, 103, 75, 0.552);
+  text-align: center; }
+
+.descargar {
+  width: 20px;
+  vertical-align: bottom; }
+
+.app:hover {
+  background-color: black; }
+
+.conteiner-general-iniciar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .conteiner-general-iniciar .main-iniciar {
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .conteiner-general-iniciar .main-iniciar .sesion-container {
+      background-color: rgba(231, 231, 231, 0.471);
+      border-right-style: groove;
+      border-bottom-style: groove;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 5px 5px 5px 5px;
+      color: rgba(72, 72, 72, 0.5);
+      width: 290px;
+      justify-content: center;
+      margin-top: 30px; }
+      .conteiner-general-iniciar .main-iniciar .sesion-container .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: black; }
+        .conteiner-general-iniciar .main-iniciar .sesion-container .items .iniciar-titulo {
+          width: 200px;
+          height: 28px;
+          border-radius: 10px;
+          color: whitesmoke;
+          align-self: center;
+          background-color: #15625c;
+          padding: 4px;
+          align-items: center; }
+        .conteiner-general-iniciar .main-iniciar .sesion-container .items form .nombre-de-usuario {
+          text-align: center;
+          margin-bottom: 10px; }
+          .conteiner-general-iniciar .main-iniciar .sesion-container .items form .nombre-de-usuario .usuario-caja {
+            width: 90%;
+            height: 25px;
+            border-radius: 5px;
+            background-color: #d9d9d9;
+            border-style: groove; }
+        .conteiner-general-iniciar .main-iniciar .sesion-container .items form .password {
+          text-align: center; }
+          .conteiner-general-iniciar .main-iniciar .sesion-container .items form .password .password-caja {
+            width: 90%;
+            height: 25px;
+            border-radius: 5px;
+            background-color: #d9d9d9;
+            border-style: groove; }
+        .conteiner-general-iniciar .main-iniciar .sesion-container .items form .boton-iniciar {
+          margin-top: 20px; }
+          .conteiner-general-iniciar .main-iniciar .sesion-container .items form .boton-iniciar .botoncito {
+            border-radius: 10px;
+            color: whitesmoke;
+            align-self: center;
+            background-color: rgba(21, 98, 92, 0.575);
+            padding: 4px;
+            transition: background-color 0.7s; }
+          .conteiner-general-iniciar .main-iniciar .sesion-container .items form .boton-iniciar .botoncito:hover {
+            background-color: black; }
+    .conteiner-general-iniciar .main-iniciar div .volver-boton {
+      margin-top: 3%; }
+
+.container-todo {
+  height: 76vh; }
+
+.flex-container-form {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px; }
+  .flex-container-form .item1 {
+    justify-content: center; }
+  .flex-container-form .datos-de-la-cuenta p, .flex-container-form .datos-del-usuario p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #dddcdc;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .flex-container-form .box {
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    border-style: groove; }
+  .flex-container-form div .enviar-div {
+    display: flex;
+    justify-content: center; }
+  .flex-container-form .enviar-registro {
+    border-radius: 10px;
+    color: whitesmoke;
+    align-self: center;
+    background-color: rgba(21, 98, 92, 0.575);
+    padding: 4px;
+    transition: background-color 0.7s;
+    margin: 15px; }
+  .flex-container-form .enviar-registro:hover {
+    background-color: black; }
+
+.flex-container-foot {
+  flex-grow: 0;
+  background-color: rgba(47, 57, 56, 0.308);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px;
+  align-content: center;
+  align-items: center;
+  justify-content: center; }
+  .flex-container-foot a {
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    padding: 10px;
+    text-decoration: none; }
+
+/*HAMBURGUESA*/
+@media (max-width: 768px) {
+  nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden; }
+    nav .menu ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem 0; }
+  nav label {
+    display: inline-flex;
+    color: white;
+    cursor: pointer; }
+  nav #toggle:checked ~ .menu {
+    height: 100%; }
+  .material-icons {
+    font-family: sans-serif;
+    font-style: normal;
+    color: white; } }
+
+@media (max-width: 655px) {
+  article h1 {
+    padding: 3%; }
+  .app {
+    padding: 4px; }
+  .descargar {
+    width: 15px;
+    vertical-align: bottom; }
+  .flex-container-foot a {
+    padding: 3px;
+    font-size: small; } }
+
+@media (max-width: 480px) {
+  article h1 {
+    font-size: 15px; }
+  .flex-container-foot a {
+    padding: 3px;
+    font-size: smaller; } }
+
+@media (max-width: 426px) {
+  .flex-container-foot a {
+    padding: 3px; } }
+
+@media (max-width: 320px) {
+  .loguito {
+    width: 220px; } }
+
+@media (max-width: 768px) {
+  .flex-container-form {
+    flex-direction: column;
+    align-items: center; } }
+
+@media (max-width: 768px) and (max-width: 768px) {
+  .container-todo {
+    max-width: 100%;
+    height: 100%; } }
+
+.contenedor-principal-ayuda {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .contenedor-principal-ayuda .main-ayuda {
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .contenedor-principal-ayuda .busqueda {
+    width: 70%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    border-style: groove;
+    padding: 5px; }
+  .contenedor-principal-ayuda .buscar-boton {
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    transition: background-color 0.7s;
+    padding-bottom: 3px; }
+  .contenedor-principal-ayuda .buscar-boton:hover {
+    background-color: #d9d9d9; }
+  .contenedor-principal-ayuda .d-grid {
+    justify-content: center; }
+  .contenedor-principal-ayuda .btn {
+    width: 300px;
+    box-shadow: 2px 2px 0 2px rgba(83, 81, 81, 0.505); }

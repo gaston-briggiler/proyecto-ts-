@@ -1,159 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /*SECCION INDEX*/
-  
-  html,
-  body {
-    height: 100%;
-  }
-  .principal {
-    background-image: url(../assets/imagenes/Imagenes-todavia-sirve/Horizontales/op12.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-    background-size: cover;
-  }
-  .contenedor-general {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  /*HEADER*/
-  header {
-    flex-grow: 0;
-    
-  }
-  
-  .loguito {
-    width: 250px;
-  }
-  
-  .menu {
-    padding-top: 12px;
-  }
-  
-  .menu ul {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .menu ul li a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  nav #toggle,
-  nav label {
-    display: none;
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    background-color: rgba(47, 57, 56, 0.308);
-    padding: 15px;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .flex-container .boton {
-    font-family: sans-serif;
-    font-style: normal;
-    color: white;
-    width: 150px;
-    height: 35px;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
-    background-color: rgba(231, 231, 231, 0.5);
-    transition: background-color 0.7s;
-    padding: 8px;
-    
-    transition: background-color 0.7s;
-  }
-  
-  .boton:hover {
-    background-color: rgba(21, 98, 92, 1);
-  }
-  
-  /*MAIN*/
-  
-  .main-index {
-  flex-grow: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-  article {
-    margin-bottom: 30px;
-  }
-  article h1 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(243, 240, 240);
-    background-color: rgba(47, 57, 56, 0.308);
-    border: solid 3px rgb(5, 95, 59);
-    box-shadow: 3px 3px 0px 3px rgba(126, 103, 75, 0.552);
-    padding: 3%;
-    text-align: center;
-    border-radius: 10px;
-    margin: 0 auto;
-    font-size: 35px;
-  }
-  
-  .app {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    text-decoration: none;
-    display: block;
-    color: rgba(255, 255, 255, 0.91);
-    border-radius: 8px;
-    background-color: rgba(47, 57, 56, 0.308);
-    border: solid 3px rgb(5, 95, 59);
-    transition: background-color 0.7s;
-    padding: 5px;
-    box-shadow: 2px 2px 0px 2px rgba(126, 103, 75, 0.552);
-    text-align: center;
-  }
-  
-  
-  
-  .descargar {
-    width: 20px;
-    vertical-align: bottom;
-  }
-  
-  .app:hover {
-    background-color: black;
-  }
-  s
+
+
   /*FOOTER*/
   
-  .flex-container-foot {
-    flex-grow: 0;
-    background-color: rgba(47, 57, 56, 0.308);
-    width: 100%;
-    height: 60px;
-    display: flex;
-    flex-flow: row wrap;
-    padding: 15px;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .flex-container-foot a {
-    color: white;
-    font-family: sans-serif;
-    font-style: normal;
-    padding: 10px;
-    text-decoration: none;
-    
-  }
-  
-  
+
   
   
   
@@ -172,61 +21,10 @@
   
   /*MEDIA QUERIS INDEX*/
   
-  @media (max-width: 1024px) {
+
+ 
   
-  }
-  
-  /*HAMBURGUESA*/
-  
-  @media (max-width: 768px) {
-    nav .menu {
-      width: 100%;
-      height: 0;
-      overflow: hidden;
-    }
-    .menu ul {
-      flex-direction: column;
-      align-items: center;
-      padding: 0.5rem 0;
-    }
-    nav label {
-      display: inline-flex;
-      color: white;
-      cursor: pointer;
-    }
-    nav #toggle:checked ~ .menu {
-      height: 100%;
-    }
-  
-    .material-icons {
-      font-family: sans-serif;
-      font-style: normal;
-      color: white;
-    }
-  }
-  
-  @media (max-width: 655px) {
-    article h1 {
-      padding: 3%;
-    }
-  
-  
-  
-    .app {
-      padding: 4px;
-    }
-  
-    .descargar {
-      width: 15px;
-      vertical-align: bottom;
-    }
-  
-    .flex-container-foot a {
-      padding: 3px;
-      font-size: small;
-    }
-  }
-  
+
   @media (max-width: 480px) {
   
     article h1 {
@@ -272,13 +70,7 @@
   
    /*seccion iniciar sesion*/
   
-   .bodysesion {
   
-    background-image: url(../assets/imagenes/Imagenes-todavia-sirve/Horizontales/op12.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 0%;  
-    background-size: 100%;  
-  }
   .conteiner-general-iniciar{
   
   height: 100%;
@@ -288,15 +80,7 @@
   }
   
   
-  .iniciar-sesion {
-  
-    font-size: 30px;
-    color: white;
-    border: solid 1px white;
-    border-radius: 5px;
-    padding: 6px;
-  
-  }
+
   
   header .nav-wrapper {
     flex-grow: 0;
