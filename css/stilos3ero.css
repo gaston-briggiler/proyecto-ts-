@@ -215,6 +215,29 @@ article {
   .flex-container-form .enviar-registro:hover {
     background-color: black; }
 
+.main-objetivos {
+  height: 76vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .main-objetivos h1 {
+    border: 3px solid #055f3b;
+    border-radius: 10px;
+    color: #055f3b;
+    padding: 5px;
+    background-color: rgba(231, 231, 231, 0.5); }
+  .main-objetivos .objetivo-principal {
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    align-self: center;
+    background-color: rgba(231, 231, 231, 0.5); }
+    .main-objetivos .objetivo-principal p {
+      font-size: large; }
+
 .flex-container-foot {
   display: flex;
   flex-grow: 0;
@@ -329,3 +352,7 @@ article {
   .container-todo {
     max-width: 100%;
     height: 100%; } }
+
+@media (max-width: 768px) {
+  .main-objetivos {
+    height: auto; } }

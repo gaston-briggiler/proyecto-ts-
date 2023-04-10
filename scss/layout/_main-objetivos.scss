@@ -1,0 +1,33 @@
+.main-objetivos {
+  height: 76vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  h1 {
+    border: 3px solid $backgroundcolor-secundario;
+    border-radius: 10px;
+    color: $backgroundcolor-secundario;
+    padding: 5px;
+    background-color:rgba(231, 231, 231, 0.5);
+  }
+  .objetivo-principal{
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    align-self: center;
+    background-color:rgba(231, 231, 231, 0.5);
+
+    p {
+        font-size: large;
+    }
+
+  }
+
+
+}
+
+
