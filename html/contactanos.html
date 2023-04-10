@@ -5,7 +5,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="device-width, initial-scale=1,0">
-<link rel="stylesheet" href="../css/estilos.css">
 <meta name="description" content="Encuentra los alimentos baratos cerca de tu casa">
 <meta name="keywords" content="alimentos, oferta, barato, calidad, cerca">
 <meta name="author" content="Gaston Briggiler">
@@ -18,33 +17,62 @@
 
 <title>Contactanos | todavia sirve</title>
 
-<link rel="shortcut icon" href="../3era entrega posible/assets/imagenes/broco.jpg" type="image/x-icon">
-
+<link rel="shortcut icon" href="../assets/imagenes/broco.jpg" type="image/x-icon">
+<link rel="stylesheet" href="../css/stilos3ero.css">
 
 </head>
 <body class="principal">
-    <div class="conteiner-general">
-<div>
-<p><b>Hola!</b> <br>
-Antes que nada, gracias por comunicarte con nosotros.<br>
-Dejanos tu mensaje y un mail y nos ponemos en contacto con vos. Muchas gracias!</p>
+    <div class="contenedor-general">
+        <header class="nav-wrapper">
+            <nav>
+                <div class="flex-container">
+                    <div> <img  class="loguito" src="../assets/imagenes/grupo5.png" alt="logo"> </div>
+                    <input type="checkbox" name="" id="toggle">
+                    <label for="toggle"> <i class="material-icons">menu</i> </label>
+                    <div class="menu">
+                        <ul>
+                            <li><a class="boton" href="../index3ero.html"> Inicio </a></li>
+                            <li><a class="boton" href="./registrarse.html"> Registrarse </a></li>
+                            <li><a class="boton" href="./iniciar.html"> Iniciar sesion </a></li>
+                        </ul>
+                    </div>  
+                </div>
+            </nav>
+        </header> 
+        <main class="main-objetivos">
+            <div class="objetivo-contacto">
+            <p> Hola! <br>
+            Antes que nada, gracias por comunicarte con nosotros.<br>
+            Dejanos tu mensaje y un mail y nos ponemos en contacto con vos. Muchas gracias!
+            </p>
 
-</div>
-<div>
-<form>
+            </div>
+            <div>
+                <form>
 
-    <textarea>
-
-</textarea>
-</form>
-</div>
-<div>
-Email:<br>
-<input type="email" autocomplete="on" name="email"><br>
-<input type="submit" name="enviar ">
-</div>
-</div><br>
-<a href="../index.html">Volver</a>
+                    <textarea class="box-contacto"  placeholder="Escriba su mensaje"></textarea>
+                </form>
+            </div>
+            <div class="email">
+                Email:<br>
+                <input type="email" class="box-email-contacto" autocomplete="on" name="email" placeholder="email"><br>
+               <div class="enviar-mensaje"><input type="submit" class="app" name="enviar " value="Enviar"></div> 
+            </div>
+          <div><a class="app" href="../index3ero.html">Volver</a></div> 
+        </main>
+        <footer class="flex-container-foot">
+            <a href="objetivo.html">Objetivo</a>
+            <a href="quienessomos.html">¿Quienes somos?</a>
+            <a href="contactanos.html">Contactanos</a>
+            <a href="comofunciona.html">¿Cómo funciona?</a>
+            <a href="https://www.facebook.com" target="_blank"> <img src="../assets/imagenes/facebook2.png" alt="facebook" height="25px"  class="icono"></a>
+            <a href="https://www.instagram.com/ " target="_blank"> <img src="../assets/imagenes/instagram2.png" alt="instagram" height="25px" class="icono" ></a>
+            <a href="https://twitter.com" target="_blank"> <img src="../assets/imagenes/twitter2.png" alt="twitter" height="25px"  class="icono"></a>  
+        </footer>
+    </div>
+    <br>
+    
+        
 
 </body>
 </html>
