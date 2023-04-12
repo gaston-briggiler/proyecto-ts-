@@ -1,0 +1,86 @@
+.header-map{
+    header .nav-wrapper {
+        flex-grow: 0;
+        width: 100%;
+      }
+      
+      .loguito {
+        width: 250px;
+      }
+      
+      .menu {
+        padding-top: 12px;
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            li a {
+                text-decoration: none;
+                color: black;
+              }
+          }
+      }
+    
+      nav #toggle,
+      nav label {
+        display: none;
+      }
+      
+      .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        background-image: linear-gradient( $backgroundcolor-secundario, $backgroundcolor-principal);
+        padding: 15px;
+        justify-content: space-between;
+        align-items: flex-start;
+        .boton {
+            font-family: sans-serif;
+            font-style: normal;
+            color: white;
+            width: 150px;
+            height: 35px;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            background-color: rgba(231, 231, 231, 0.5);
+            transition: background-color 0.7s;
+            padding: 8px;
+            
+            transition: background-color 0.7s;
+          }
+      }
+    
+      .boton:hover {
+        background-color: rgba(21, 98, 92, 1);
+      }
+    
+}
+
+.body-map{
+
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-color: $backgroundcolor-principal;
+}
+
+.footer-map {
+        display: flex;
+        flex-grow: 0;
+        flex-flow: row wrap;
+        background-image: linear-gradient($backgroundcolor-principal, $backgroundcolor-secundario);
+        width: 100%;
+        height: 60px;
+        padding: 15px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        a {
+            color: white;
+            font-family: sans-serif;
+            font-style: normal;
+            padding: 10px;
+            text-decoration: none;
+          }
+      }
+       
