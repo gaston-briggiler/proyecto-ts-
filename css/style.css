@@ -1,14 +1,16 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-header .nav-wrapper {
-  flex-grow: 0;
+header {
+  flex-grow: 1;
   width: 100%; }
 
 .loguito {
-  width: 250px; }
+  width: 250px;
+  cursor: pointer; }
 
 .menu {
   padding-top: 12px; }
@@ -65,7 +67,7 @@ body {
 
 .main-index {
   height: 76vh;
-  flex-grow: 1;
+  flex-grow: 2;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -103,6 +105,10 @@ article {
 
 .app:hover {
   background-color: black; }
+
+@media (max-width: 1024px) {
+  .main-index {
+    height: 79vh; } }
 
 .conteiner-general-iniciar {
   height: 100%;
@@ -241,11 +247,10 @@ article {
 
 .flex-container-foot {
   display: flex;
-  flex-grow: 0;
+  flex-grow: 1;
   flex-flow: row wrap;
   background-color: rgba(51, 47, 57, 0.308);
   width: 100%;
-  height: 60px;
   padding: 15px;
   align-content: center;
   align-items: center;
@@ -296,6 +301,9 @@ article {
   box-shadow: 2px 2px 0 2px rgba(83, 81, 81, 0.505); }
 
 .main-objetivos .objetivo-contacto {
+  text-align: center; }
+
+.main-objetivos .objetivo-principal p, .main-objetivos .objetivo-contacto p {
   text-align: center; }
 
 .main-objetivos .box-contacto {
@@ -389,6 +397,83 @@ article {
     padding: 10px;
     text-decoration: none; }
 
+.main-qs {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .main-qs h1 {
+    border: 3px solid #055f3b;
+    border-radius: 10px;
+    color: #055f3b;
+    padding: 5px;
+    background-color: rgba(231, 231, 231, 0.5); }
+  .main-qs .objetivo-principal, .main-qs .main-objetivos .objetivo-contacto, .main-objetivos .main-qs .objetivo-contacto {
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    align-self: center;
+    background-color: rgba(231, 231, 231, 0.5); }
+    .main-qs .objetivo-principal p, .main-qs .main-objetivos .objetivo-contacto p, .main-objetivos .main-qs .objetivo-contacto p {
+      font-size: large; }
+
+.titulo-qs {
+  padding: 10px; }
+
+.grid-container-qs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.267); }
+  .grid-container-qs .item1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: center; }
+    .grid-container-qs .item1 .fernando {
+      text-align: center;
+      border: 2px solid #055f3b;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.445); }
+  .grid-container-qs .item2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: center; }
+    .grid-container-qs .item2 .indiana {
+      text-align: center;
+      border: 2px solid #055f3b;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.445); }
+  .grid-container-qs .item3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    justify-self: center; }
+    .grid-container-qs .item3 .graciela {
+      text-align: center;
+      border: 2px solid #055f3b;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.445); }
+  .grid-container-qs .item4 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: center; }
+    .grid-container-qs .item4 .stella {
+      text-align: center;
+      border: 2px solid #055f3b;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.445); }
+
+.boton-volver {
+  padding: 10px; }
+
 /*MEDIA QUERY*/
 /*HAMBURGUESA*/
 @media (max-width: 768px) {
@@ -451,3 +536,92 @@ article {
 @media (max-width: 768px) {
   .main-objetivos {
     height: auto; } }
+
+/*MEDIA 1440 INICIO*/
+@media (min-width: 1440px) {
+  .main-index {
+    height: 84vh; }
+    .main-index .articulo {
+      height: 200px; }
+      .main-index .articulo h1 {
+        font-size: 45px; }
+    .main-index .app {
+      font-size: 25px;
+      padding: 7px; } }
+
+/*MEDIA 1440 INICIAR SESION*/
+@media (min-width: 1440px) {
+  .conteiner-general-iniciar .main-iniciar {
+    height: 84vh;
+    justify-content: center; }
+    .conteiner-general-iniciar .main-iniciar .sesion-container {
+      padding: 70px;
+      width: 350px;
+      height: 350px; }
+    .conteiner-general-iniciar .main-iniciar .volver-boton {
+      padding: 100px; } }
+
+/*MEDIA 1440 REGISTRARSE*/
+@media (min-width: 1440px) {
+  .container-todo {
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .container-todo form .flex-container-form {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center; }
+      .container-todo form .flex-container-form .item1 {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch; }
+        .container-todo form .flex-container-form .item1 .datos-del-usuario, .container-todo form .flex-container-form .item1 .nombre, .container-todo form .flex-container-form .item1 .apellido, .container-todo form .flex-container-form .item1 .email, .container-todo form .flex-container-form .item1 .telefono, .container-todo form .flex-container-form .item1 .ciudad, .container-todo form .flex-container-form .item1 .barrio, .container-todo form .flex-container-form .item1 .direccion {
+          padding-top: 15px;
+          padding-bottom: 15px; }
+      .container-todo form .flex-container-form .item2 {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch; }
+        .container-todo form .flex-container-form .item2 .piso, .container-todo form .flex-container-form .item2 .departamento, .container-todo form .flex-container-form .item2 .comentarios, .container-todo form .flex-container-form .item2 .datos-de-la-cuenta, .container-todo form .flex-container-form .item2 .nombre-usuario, .container-todo form .flex-container-form .item2 .contraseña, .container-todo form .flex-container-form .item2 .repetir-contraseña, .container-todo form .flex-container-form .item2 .enviar-div {
+          padding-top: 15px;
+          padding-bottom: 15px; } }
+
+/*MEDIA 1440 AYUDA*/
+@media (min-width: 1440px) {
+  .contenedor-principal-ayuda .main-ayuda {
+    height: 84vh; } }
+
+/*MEDIA 1440 OBJETIVO*/
+@media (min-width: 1440px) {
+  .main-objetivos {
+    height: 84vh; }
+    .main-objetivos h1 {
+      font-size: 50px; }
+    .main-objetivos .objetivo-principal, .main-objetivos .objetivo-contacto {
+      width: 60%;
+      height: 45%; }
+      .main-objetivos .objetivo-principal p, .main-objetivos .objetivo-contacto p {
+        font-size: 20px; }
+    .main-objetivos .app {
+      font-size: 35px; } }
+
+/*MEDIA 1440 QUIENES SOMOS*/
+@media (min-width: 1440px) {
+  .main-objetivos .objetivo-principal .quienes-somos-p, .main-objetivos .objetivo-contacto .quienes-somos-p {
+    font-size: 30px; } }
+
+/*MEDIA 1440 CONTACTANOS*/
+@media (min-width: 1440px) {
+  .main-objetivos .objetivo-principal .contactanos-p, .main-objetivos .objetivo-contacto .contactanos-p {
+    font-size: 35px; } }
+
+@media (max-width: 768px) {
+  .main-qs .grid-container-qs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; } }

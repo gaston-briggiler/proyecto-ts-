@@ -1,0 +1,130 @@
+/*MEDIA 1440 INICIO*/
+
+
+@media ( min-width: 1440px) {
+.main-index {
+    height: 84vh;
+    .articulo {
+        height: 200px;
+        h1{
+            font-size: 45px;
+        }
+    }
+    .app {
+        font-size: 25px;
+        padding: 7px;
+    }
+
+}
+
+}
+
+
+/*MEDIA 1440 INICIAR SESION*/
+
+@media ( min-width: 1440px) {
+    .conteiner-general-iniciar .main-iniciar {
+        height: 84vh;
+        justify-content: center;
+
+        .sesion-container {
+            padding: 70px;
+            width: 350px;
+            height: 350px;
+        }
+        .volver-boton {
+            padding: 100px;
+        }
+    }
+}
+ 
+/*MEDIA 1440 REGISTRARSE*/
+
+@media ( min-width: 1440px) {
+
+    .container-todo {
+      height: 84vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+      form {
+        .flex-container-form {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+  
+          .item1 {
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+  
+            .datos-del-usuario, .nombre, .apellido, .email, .telefono, .ciudad, .barrio, .direccion {
+              padding-top: 15px;
+              padding-bottom: 15px;
+            }
+  
+          }
+          .item2 {
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+  
+            .piso, .departamento, .comentarios, .datos-de-la-cuenta, .nombre-usuario, .contraseña, .repetir-contraseña, .enviar-div {
+              padding-top: 15px;
+              padding-bottom: 15px;
+            }
+          }
+  
+        }
+      }
+    }
+    }
+
+    /*MEDIA 1440 AYUDA*/
+
+    @media ( min-width: 1440px) {
+        .contenedor-principal-ayuda .main-ayuda {
+            height: 84vh;
+        }
+    }
+
+     /*MEDIA 1440 OBJETIVO*/
+
+ @media ( min-width: 1440px) {
+        .main-objetivos {
+            height: 84vh;
+            h1 {
+                font-size: 50px;
+            }
+            .objetivo-principal {
+                width: 60%;
+                height: 45%;
+                p {
+                    font-size: 20px;
+                }
+            }
+            .app {
+                font-size: 35px ;
+            }
+        }
+    } 
+         /*MEDIA 1440 QUIENES SOMOS*/
+         
+         @media ( min-width: 1440px) {
+           .main-objetivos .objetivo-principal .quienes-somos-p {
+            font-size: 30px;
+           }
+
+         }
+
+         /*MEDIA 1440 CONTACTANOS*/
+
+         @media ( min-width: 1440px) {
+            .main-objetivos .objetivo-principal .contactanos-p {
+                font-size: 35px;
+            }
+         }

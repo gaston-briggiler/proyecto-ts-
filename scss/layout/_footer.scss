@@ -1,10 +1,10 @@
 .flex-container-foot {
     display: flex;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-flow: row wrap;
     background-color: $backgroundcolor-principal;
     width: 100%;
-    height: 60px;
+    
     padding: 15px;
     align-content: center;
     align-items: center;

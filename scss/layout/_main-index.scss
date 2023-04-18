@@ -1,6 +1,6 @@
 .main-index {
   height: 76vh;
-    flex-grow: 1;
+    flex-grow: 2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,4 +43,12 @@
     
     .app:hover {
       background-color: black;
+    }
+
+
+    @media (max-width: 1024px) {
+      .main-index {
+        height: 79vh;
+      }
+
     }
